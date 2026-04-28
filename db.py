@@ -1,7 +1,5 @@
-import pyodbc
-
-SERVER = "sqlserver123.database.windows.net"
-DATABASE = "demodb"
+SERVER = "sharatsqlserver.database.windows.net"
+DATABASE = "sharatsqldb"
 
 def get_db_connection():
     conn_str = (
